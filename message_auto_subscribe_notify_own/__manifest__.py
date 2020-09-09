@@ -4,18 +4,15 @@
 {
     "name": "Message Auto Subscribe Notify Own",
     "summary": "Receive notifications of your own subscriptions",
-    "version": "12.0.1.0.0",
+    "version": "13.0.1.0.0",
     "category": "Social Network",
     "website": "https://github.com/OCA/social",
-    "author": "Eficent, "
-              "Odoo Community Association (OCA)",
+    "author": "Eficent, " "Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "installable": True,
-    "depends": [
-        "mail",
-    ],
+    "depends": ["mail"],
     "data": [
-        'security/ir.model.access.csv',
-        'views/auto_subscribe_notify_own_model.xml',
+        "security/ir.model.access.csv",
+        "views/auto_subscribe_notify_own_model.xml",
     ],
 }

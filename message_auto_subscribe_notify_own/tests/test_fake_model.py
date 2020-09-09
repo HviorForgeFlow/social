@@ -7,12 +7,9 @@ from odoo import fields, models
 class MessageAutoSubscribeNotifyOwnTest(models.Model):
     """A Fake model to Test."""
 
-    _name = 'message_auto_subscribe_notify_own.test'
-    _description = 'Message Auto Subscribe Notify Own Test'
-    _inherit = 'mail.thread'
+    _name = "message_auto_subscribe_notify_own.test"
+    _description = "Message Auto Subscribe Notify Own Test"
+    _inherit = "mail.thread"
 
     name = fields.Char()
-    user_id = fields.Many2one(
-        comodel_name='res.users',
-        track_visibility='onchange',
-    )
+    user_id = fields.Many2one(comodel_name="res.users", track_visibility="onchange")

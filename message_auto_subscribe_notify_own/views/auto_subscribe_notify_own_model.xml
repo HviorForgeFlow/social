@@ -18,7 +18,6 @@
         <record model="ir.actions.act_window" id="action_view_auto_subscribe_notify_own_model">
             <field name="name">Notify Own Models</field>
             <field name="res_model">auto.subscribe.notify.own.model</field>
-            <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
         <menuitem name="Notify Own Models" id="menu_message_auto_subscribe_notify_own_model" parent="base.menu_email" action="action_view_auto_subscribe_notify_own_model"/>
